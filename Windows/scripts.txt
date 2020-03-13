@@ -1,0 +1,2 @@
+Get-ADGroupMember -Identity 'Domain Admins'|Select-Object SamAccountName
+Get-ADGroupMember -Identity 'Administrators'|Select-Object SamAccountName
